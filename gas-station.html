@@ -22,6 +22,9 @@
           text-shadow: 0 1px 1pxrgba(0,0,0,.2);
       }
 
+    .shadowed {
+      filter: drop-shadow(5px 5px 5px #666666);
+    }
       
   </style>
 
@@ -191,7 +194,7 @@
       <div class="container-fluid">
         <br>
 
-        <hr>
+
     
         <h5 class="mb-2" style="text-align: center;"><b>Serving you soon.</b></h5>
         <h6 class="mb-2" style="text-align: center;">We are very excited to serve you. </h6>
@@ -199,17 +202,125 @@
         <hr>
         
       </div>
-      <div class="row">
 
-        <div class="col-md-1"></div>
-        <div class="col-md-8">
-          <img src="./dist/img/gas-station.png" alt="" srcset="">
-        
+      <section class="gas-stations content" >
+        <br><br>
+        <div class="row shadowed">
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <div class="top-left" style=" position: absolute; top:  10px; left: 16px;"><h4 style="color: yellow;">Alpa One Cebu </h4></div>
+              <div class="top-left" style=" position: absolute; bottom:  3px; left: 16px;"><a style="color: yellow;">Alpa One </a></div>
+              <img src="./dist/img/gas-station.png" alt="Photo 1" class="img-fluid " style=" border-radius: 25px;"> 
+              <div class="ribbon-wrapper ribbon-lg">
+                <div class="ribbon bg-warning text-md" style="opacity: 80%;">
+                  Reserved
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <div class="top-left shadowed" style=" position: absolute; top:   10px; left: 16px;"><h4 style="color: yellow;">Bravo One Manila </h4></div>
+              <img src="./dist/img/gas-station.png" alt="Photo 1" class="img-fluid " style=" border-radius: 25px;"> 
+              <div class="ribbon-wrapper ribbon-lg">
+                <div class="ribbon bg-success text-md" style="opacity: 80%;">
+                  For Sale
+                </div>
+               
+              </div>
+              
+            </div>
+          </div>
         </div>
-       </div>
+        <hr>
+        <br>
+        <div class="row shadowed">
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <div class="top-left" style=" position: absolute; top:  10px; left: 16px;"><h4 style="color: yellow;">Charlie One Cavite </h4></div>
+              <img src="./dist/img/gas-station.png" alt="Photo 1" class="img-fluid " style=" border-radius: 25px;"> 
+              <div class="ribbon-wrapper ribbon-lg">
+                <div class="ribbon bg-success text-md" style="opacity: 80%;">
+                  For Sale
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <div class="top-left" style=" position: absolute; top:   10px; left: 16px;"><h4 style="color: yellow;">Delta One Laguna </h4></div>
+              <img src="./dist/img/gas-station.png" alt="Photo 1" class="img-fluid " style=" border-radius: 25px;"> 
+              <div class="ribbon-wrapper ribbon-lg">
+                <div class="ribbon bg-success text-md" style="opacity: 80%;">
+                  For Sale
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <br>
+        <div class="row shadowed">
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <div class="top-left" style=" position: absolute; top:  10px; left: 16px;"><h4 style="color: yellow;">Echo One Bulacan</h4></div>
+              <img src="./dist/img/gas-station.png" alt="Photo 1" class="img-fluid " style=" border-radius: 25px;"> 
+              <div class="ribbon-wrapper ribbon-lg">
+                <div class="ribbon bg-success text-md" style="opacity: 80%;">
+                  For Sale
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <div class="top-left" style=" position: absolute; top:   10px; left: 16px;"><h4 style="color: yellow;">Foxtrot Pampanga </h4></div>
+              <img src="./dist/img/gas-station.png" alt="Photo 1" class="img-fluid " style=" border-radius: 25px;"> 
+              <div class="ribbon-wrapper ribbon-lg">
+                <div class="ribbon bg-success text-md" style="opacity: 80%;">
+                  For Sale
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <br>
+        <div class="row shadowed">
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <div class="top-left" style=" position: absolute; top:  10px; left: 16px;"><h4 style="color: yellow;">Golf One </h4></div>
+              <img src="./dist/img/gas-station.png" alt="Photo 1" class="img-fluid " style=" border-radius: 25px; filter: grayscale(100%);"> 
+              <div class="ribbon-wrapper ribbon-lg">
+                <div class="ribbon bg-secondary text-md" style="opacity: 80%;">
+                  --
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <div class="top-left" style=" position: absolute; top:   10px; left: 16px;"><h4 style="color: yellow;">Hotel One </h4></div>
+              <img src="./dist/img/gas-station.png" alt="Photo 1" class="img-fluid " style=" border-radius: 25px; filter: grayscale(100%);"> 
+              <div class="ribbon-wrapper ribbon-lg">
+                <div class="ribbon bg-secondary text-md" style="opacity: 80%;">
+                  --
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+      </section>
 
     </section>
+
+
+
     <!-- /.content -->
+
+
 
     <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
       <i class="fas fa-chevron-up"></i>
